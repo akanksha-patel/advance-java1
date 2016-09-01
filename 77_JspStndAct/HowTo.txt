@@ -1,0 +1,8 @@
+jsp:include tag allows to include othe page from within your
+current page dynamically.
+
+On the other hand the include directive is a translation time 
+instruction acording to the JEE Specification. 
+
+On the contrary the Tomcat implemented the include directive
+such that it also works as dynamic include.

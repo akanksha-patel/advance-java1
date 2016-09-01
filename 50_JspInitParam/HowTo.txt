@@ -1,0 +1,9 @@
+You can also set init parameter for jsp. 
+To do this you need to provide servlet mapping just like we do it for
+a servlet but instead of writting <servlet-class> we use <jsp-file> tag.
+
+You must specify the jsp page's path with respect to the application root,
+both in the <url-pattern> and <jsp-file> tag.
+
+The servlet class created by us has it's own config and jsp file has it's own config.
+So the init-param mapping for both of them needed to be done saperately.

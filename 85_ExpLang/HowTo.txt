@@ -1,0 +1,11 @@
+The header EL implicit object reffers to the request headers not the 
+response header. 
+
+Header is the the map of request-headers where the header names 
+become keys and the values against the keys are the header value.
+
+One more thing when the header name is created with more than one
+word then to access the header you must use [] symbol instead of dot.
+
+There are no header with multiple values in our case thus not able to 
+show the headerValues effectively.

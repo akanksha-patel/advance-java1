@@ -1,0 +1,13 @@
+Because Our Custom Sevlet IS-A Servlet as well as ServletConfig
+Thus you can call the API methods of both interfaces directly from
+within our servlet's doGet/doPost, like:
+
+getInitParameter instead of getting the ServletConfig first then 
+accessing the initParams through the ServletConfig object.
+
+Same in the case of contParam:
+You do not need to get the config object first then through the conf 
+object get the context object then the contextParam associated.
+You can instead say:
+getServletContext() then using the context object you can get the 
+contParam associated.

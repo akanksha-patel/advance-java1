@@ -1,0 +1,12 @@
+Check the url-pattern: 
+Th epattern of writting url-pattern can be considered according the 
+web-page:
+
+Ex:
+If - your web page is in the app-root folder and the 
+action url is act.do.
+Then - You should writer /act.do in web.xml mapping.
+
+If - Your web page is in the sub folder(xyz) then 
+to access the resource you the url-pattern in web.xml
+will be /xyz/act.do

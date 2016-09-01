@@ -1,0 +1,13 @@
+In this example we used a new attribute in the jsp:useBean tag.
+This attribute allows you to declare a variable of parent type and 
+object of the class attribute type.
+
+See the translation. 
+
+You can specify a concrete class, an abstract class or an interface 
+in the type attribute, as it will be used to declare a variable and 
+cast the attribute value.
+
+On the other hand the value you can specify for the class attribute 
+must be a concrete class, because when no specified attribute exists
+the code instantiates an object of the class specified in the class attribute.

@@ -1,0 +1,23 @@
+In this example we demonstrated the EL function:
+
+Step 1:
+To enable EL function you must write a class and supply a static method 
+which will ultimately run in the background. Class and method must be public.
+
+Step 2:
+Next you need to write a .tld file and you need to put it beside the web.xml file.
+The tld file must have a <uri> tag. Uri name specified in the uri tag will be used 
+to reffer the tld file.
+
+Step 3:
+You must configure a <function> tag. Next you need to write 3 essential child
+tags naming <name>, <function-class>, <function-signature>.
+
+Step 4: To use this function from within a Jsp page you first need to write a 
+taglib directive with some prefix and uri attribute. 
+
+Step 5: 
+Now you are ready to call. Suppose you abc is the prefix and conv is the function
+name then:
+${abc:conv()}
+

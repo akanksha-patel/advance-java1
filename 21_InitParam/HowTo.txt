@@ -1,0 +1,3 @@
+Initial Parameters Configured for one servlet is only accessible to the 
+Servlet only. Other Servlet Can't access the Initparams configured for 
+other Servlet.

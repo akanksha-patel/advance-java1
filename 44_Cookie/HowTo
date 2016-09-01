@@ -1,0 +1,17 @@
+//Case 1:
+When we create a Cookie object, by default the max-age is -1.
+
+A negative value means the cookie will be deleted at client side 
+as soon as we close the browser.
+
+//Case 2:
+If you set a positive value as the max-age of a cookie then the 
+cookie will expire as soon as the time elapsed or expired. In this
+case the expired cookies will not take part in subsequent request.
+
+//Case 3:
+If the max-age is set to 0 then the cookie will not be saved at all in the 
+user browser. 
+
+//In MozillaFirefox browse use menu-option > Tools > Page Info
+Here you can get the cookies saved.

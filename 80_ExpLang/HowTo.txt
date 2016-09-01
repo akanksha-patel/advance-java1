@@ -1,0 +1,10 @@
+This example demonstrates that we can use dot operator
+in EL syntex where the first part must resolve to a bean or a 
+map. If it resolves a bean object then the second value after 
+the dot operator is one of the property-name of the bean object
+and one more thing the property name is resolved according the
+getter method.
+If the first part in the EL syntex is resolved to a map then the 
+second value after the dot operator must be a key. The result in case of 
+map is the value attached to specified key.
+

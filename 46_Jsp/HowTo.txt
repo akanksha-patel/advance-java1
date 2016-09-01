@@ -1,0 +1,21 @@
+To dicourage stuffing html in servlet(java), the jsp techinique is evolved.
+
+Creating a jsp page is very simple: 
+Write a html page and save it with jsp extension.
+
+Jsp is a complete responsibility of the Server.
+If you access a jsp page server takes care of translating it into a servlet
+and compiling it and rest of the life cycle is same as the servlet classe's.
+
+When server recognizes an application deployed in the server then 
+server creates a folder with same application name inside the work directory:
+
+Tomcat 5.5 - > work -> Catalina -> <App-Folder>
+
+When any jsp is accessed the very first time, then the server translates and 
+compiles it in the same folder. The folder hierarchi is:
+
+Tomcat 5.5 - > work -> Catalina -> <App-Folder> -> org -> apache -> jsp -> <translated-jsp-page>
+
+Also see the documentation of the JSP-API and the jsp-api.jar.
+

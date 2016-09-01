@@ -1,0 +1,10 @@
+This example covers all the methods described in 
+ServletRequest,
+HttpServletRequest
+
+Some additional method examples to demonstrate the
+specially designed header methods.
+Like: 
+getHeader();
+getIntHeader();
+getDateHeader();

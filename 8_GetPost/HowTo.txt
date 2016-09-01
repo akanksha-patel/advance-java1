@@ -1,0 +1,7 @@
+If your request is sent through Get method then you must 
+override doGet() in your servlet class.
+
+If your request is sent through Post method then you must 
+override doPost() in your servlet class.
+
+.... write more

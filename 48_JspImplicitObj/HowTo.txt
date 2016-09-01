@@ -1,0 +1,22 @@
+There are 9 implicit objects:
+
+request	- HttpServletRequest
+response	- HttpServletResponse
+
+application	- ServletContext
+config	- ServletConfig
+
+session	- HttpSession
+
+page		- Object
+pageContext - PageContext
+out		- JspWriter
+
+exception	- Throwable
+
+All these implicit variables are created & initialized in each Jsp Page.
+In other words you neither need to call getSession(), getServletContext() etc..
+nor you need to create your own variables to hold the session, config etc...
+
+The exception implicit object is created when you write isErrorPage="true" 
+in page directive.

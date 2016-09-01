@@ -1,0 +1,10 @@
+There are several operators EL supports:
+
++
+-
+*
+/ or div
+% or mod
+
+You can use constants, accepted EL syntex resolving to a number
+to operate on as a number.

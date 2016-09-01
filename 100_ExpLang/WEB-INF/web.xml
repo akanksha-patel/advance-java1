@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+
+  
+  <context-param>
+	<param-name>aaa</param-name>
+	<param-value>222</param-value>
+  </context-param>
+
+
+  <servlet>
+    <servlet-name>ab3c</servlet-name>
+	<jsp-file>/next.jsp</jsp-file>
+	<init-param>
+		<param-name>ccc</param-name>
+		<param-value>444</param-value>
+    </init-param>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>ab3c</servlet-name>
+	<url-pattern>/next.jsp</url-pattern>
+  </servlet-mapping>
+
+  
+  <servlet>
+    <servlet-name>abc</servlet-name>
+	<servlet-class>controller.ELServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>abc</servlet-name>
+	<url-pattern>/nxtpg.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>abc1</servlet-name>
+	<servlet-class>controller.EL2Servlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>abc1</servlet-name>
+	<url-pattern>/proc.do</url-pattern>
+  </servlet-mapping>
+
+
+  
+
+</web-app>

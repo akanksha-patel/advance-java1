@@ -1,0 +1,5 @@
+When we talk about the initParam EL implicit object then it means
+the context parameters, no the config parameters.
+
+Here the the param names become keys and param values become 
+value of the keys.

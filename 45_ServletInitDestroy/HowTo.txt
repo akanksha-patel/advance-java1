@@ -1,0 +1,20 @@
+init():
+
+You are allowed to override the no-arg init method supplied by the 
+GenericServlet. You are not allowed to override the init(conf) method.
+
+It is init(conf) which calls our init(). By overriding the init() you can write 
+any initialization code you want to run when the lifecycle moment init is 
+triggered.
+
+It is ok to call the getServletConfig() as the config is already created and 
+supplied to the init(conf).
+
+
+destroy():
+
+You can override the life-cycle method destroy() to write code in your 
+servlet which will run when the servlet is destroyed:
+
+A servlet is destroyed when the containning application is stopped, destroyed or the 
+server is shut-down.

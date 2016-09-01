@@ -1,0 +1,19 @@
+There are 4 Jsp elements:(Scripting Technique)
+
+1. Scriptlet		- <%    %>
+2. Expression	- <%=  %>
+3. Declaration	- <%!   %>
+4. Directive		- <%@  %> 
+
+There are 3 types of directives: page, include, taglib
+
+Scriptlet, Expression and include directives are position sensitive.
+
+You can write Java statements and expressions in the Scriptlet
+the code written in it is translated directly inside the _jspService() method.
+
+Youcan write any thing which can be evaluated to a value can be written
+inside the Expression. Like varibale, constant, expression or any method 
+call which is non void type are all legal statements allowed in an Expression.
+
+

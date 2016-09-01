@@ -1,0 +1,5 @@
+In this example we have used :
+
+c:choose
+c:when
+c:otherwise

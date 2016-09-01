@@ -1,0 +1,6 @@
+The Servlets involved in Response creation stack up in to 
+the same thread. In other words there is one thread for 
+each request. 
+
+In this example we print the thread name from within the 
+servlets to prove they are running inside the same thread.

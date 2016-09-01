@@ -1,0 +1,16 @@
+It is always too late to work on response side 
+after the response is either flushed to the client
+or dispatcher forwards the request to some 
+other servlet.
+
+If you do so the IllegalStateException will be thrown.
+To recognize that event, you need to wrap such call 
+inside the try-catch. 
+
+Also keenly observe the stack trace of second servlet in our example, 
+when such exception occurs. You can see that both the servlets are 
+stacked up into the same thread and the thread starts with the run method.
+
+All methods which can cause IllegalStateException are in 
+the ServletResponse, HttpServletResponse & HttpSession API.
+Please find them all.

@@ -1,0 +1,6 @@
+The PageContext is an important Jsp Implicit object.
+It has all other implicit objects which is useful when 
+we separate the java code (stuffed in jsp) in another 
+plain java class. Such object provides an easy mechanism to
+pass all servlet specific components directly to that 
+plain java class.

@@ -1,0 +1,11 @@
+When we redirect the servlet actually wants to say that 
+I am not going to give you the desired response, instead
+I am sending you the url where you will get the actual
+response.
+
+The sendRedirect method of repsonse set a status code 301
+to tell the browser the response i am sending is not the 
+original response. I am sending another url to visit to, in 
+response-header 'location'. The browser knows that, it is required to 
+retype the location path in the address bar and send another request 
+without involving the end-user at the client end.

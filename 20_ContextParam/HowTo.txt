@@ -1,0 +1,9 @@
+There is one ServletConfig per Servlet Object and 
+There is one ServletContext object per application.
+
+
+Each ServletConfig has an access to the The Same 
+ServletContext object developed for entire application.
+
+Form within the Servlet you can access the ServletContext
+and any associated ContextParameters.

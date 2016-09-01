@@ -1,0 +1,8 @@
+This example demonstrates how to access a servlet resource from 
+different html pages specially when they are stored in different 
+folders.
+
+Anther aspect we have covered here is, how simple it is to move 
+the servlet or rearrange their package, and the how the mapping 
+saves you from making changes in all the html pages linking to that
+servlet resource.

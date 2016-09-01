@@ -1,0 +1,8 @@
+
+
+The square brackets allow you to use Map, Bean, Array and List.
+
+If you use array or list then the argument in the square bracket is a number
+and wrapping the number in the single quote is not mandetory.
+
+

@@ -1,0 +1,7 @@
+Jsp Implicit objects are not accessible from within the jspInit and jspDestroy.
+
+The implicit objects are created inside the _jspService method and they are all
+local variables of the methods, not accessible outside the _jspService().
+
+You can still call getServletContext() and getServletConfig() from within the 
+init and destroy methods as the translated jsp falls in the HttpJspBase class inheritance tree.

@@ -1,0 +1,31 @@
+http://localhost:8080/83_ExpLang/nxtpg.jsp?nm=mohan&em=moh@gm.com&pw=123
+	
+	key		value
+	+++         ++++
+	nm		mohan
+	em		moh@gm.com
+	pw		123
+
+
+
+	${firstThing.secondThing}
+		Map	-	key
+		Bean	-	property
+
+	${firstThing['secondThing']}
+	    Map	-	'key'
+	    Bean	-	'property'
+	    ArrayList-	'index' or index
+	    Array	-	'index' or index
+
+
+	    Map mp = new HashMap();
+	    mp.put("your-name", "mohan");
+	    mp.put("your-email", "mohan@gmail.com");
+	    mp.put("your-address", "Jabalpur");
+	    mp.put("1rank", "manager");
+	    session.setAttribute("mpz", mp);
+
+	    ${mp.your-name}  --- NOT OK
+	    ${mp.1rank}  --- NOT OK
+	    ${mp['your-name']} ---- OK

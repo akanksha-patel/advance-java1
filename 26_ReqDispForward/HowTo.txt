@@ -1,0 +1,7 @@
+So far we have seen that we can either create response through the servlet 
+which start handling the request. Here we create the html
+response and flush the response to the client.
+
+If we distribute the entire request handling amongst more than
+one servlet then the first servlet will use request dispatcher 
+to forward the request handling to another servlet.

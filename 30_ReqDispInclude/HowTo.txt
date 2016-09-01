@@ -1,0 +1,5 @@
+When you include response from another servlet 
+then the aother servlet if flushes the response itself
+won't affect the reposne. In other words the first servlet 
+will contribute in the response after the included servlet
+completes it's task.

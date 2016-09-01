@@ -1,0 +1,7 @@
+//This Example shows you that the files inside the WEB-INF is never accessible
+//by URL like: 
+
+//localhost:8080/MyApp/WEB-INF/abc.html
+//never possible
+
+//This example also shows you how to prepare your web.xml file.

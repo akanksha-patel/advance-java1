@@ -1,0 +1,9 @@
+If we have a reusable component in several responses 
+then we extract that part from each reponse and create another 
+servlet to handle that part. 
+
+Now all other servlet from which we extracted the reusable content 
+will include the extracted response servlet.
+
+This way code duplication is reduced drastically
+and code maintainence is simpler.

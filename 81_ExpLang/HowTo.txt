@@ -1,0 +1,18 @@
+EL has implicit objects:
+
+pageScope
+requestScope
+sessionScope
+applicationScope
+
+param
+paramValue
+
+initParam
+
+header
+headerValues
+
+cookie
+
+pageContext

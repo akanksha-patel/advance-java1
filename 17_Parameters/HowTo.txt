@@ -1,0 +1,2 @@
+You can also get the textarea information at server end using the 
+getParamtere() method. 

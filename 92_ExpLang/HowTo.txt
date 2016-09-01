@@ -1,0 +1,20 @@
+The EL handles the null value gracefully.
+
+One thing we notice that the bean property must exist
+or the page will crash. No problem if you access an 
+existing property which is uninitialized.
+
+There is one more point to be noticed that if we access 
+a key in a map using EL and such key is unavailable then 
+the EL handles it gracefully. The same behaviour is seen 
+when we try to access an index of an array or list which is
+not available(the index), the container simply does not show 
+any thing at that point, instead of showing an error page 
+with ArrayIndexOutOfBoundsException.
+
+EL supports operators: 
+When we write an expression 2/0, the EL handles it gracefully
+instead of throwing an ArithmeticException and sending the 
+crash report, the value infinity is displayed, no crash occurs.
+While using modulo division you can't expect the same, means
+you wont experience the graceful handling in this case.

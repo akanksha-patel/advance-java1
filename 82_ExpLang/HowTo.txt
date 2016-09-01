@@ -1,0 +1,6 @@
+Herer we learnt how to use EL implicit object:
+
+pageScope
+requestScope
+sessionScope
+applicationScope

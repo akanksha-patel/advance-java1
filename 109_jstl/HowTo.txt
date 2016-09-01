@@ -1,0 +1,3 @@
+c:set allws us to set an attribute.
+Contrary to jsp:useBean it does not reuire 
+it to be an object to be saved in any scope.

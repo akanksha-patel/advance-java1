@@ -1,0 +1,4 @@
+The code written inside the declaration <%!    %>
+is translated outside the _jspService() method. In other words the 
+translation goes directly inside the servlet-class.
+

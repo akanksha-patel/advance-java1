@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+  <servlet>
+    <servlet-name>rty</servlet-name>
+	<servlet-class>controller.SessionServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>rty</servlet-name>
+	<url-pattern>/act.do</url-pattern>	
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>rty2</servlet-name>
+	<servlet-class>controller.Session2Servlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>rty2</servlet-name>
+	<url-pattern>/act2.do</url-pattern>	
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>rty3</servlet-name>
+	<servlet-class>controller.Session3Servlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>rty3</servlet-name>
+	<url-pattern>/act3.do</url-pattern>	
+  </servlet-mapping>
+
+
+  <session-config>
+    <session-timeout>1</session-timeout>
+  </session-config>
+
+</web-app>

@@ -1,0 +1,11 @@
+If multiple selection is on in your drop down menu
+then if you will not select any option then your address
+bar will not reflect any entry for the field.
+On the contrary the drop down menu if not enabled for 
+multiple selection then the default displayed value will
+be considered as user's selection.
+
+We also tried the getParameterValues() method as a good choice foe
+this case.
+
+

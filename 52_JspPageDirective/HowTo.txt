@@ -1,0 +1,9 @@
+To write the import statements we use page directives.
+<%@ page  import="" %>
+
+You can write more than one import statements in a single directive:
+<%@ page import="java.util.Date,model.Person"  %>
+
+Or you can write them saperately:
+<%@ page import="java.util.Date"  %>
+<%@ page import="model.Person"  %>

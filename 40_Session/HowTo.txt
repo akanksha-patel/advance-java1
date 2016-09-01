@@ -1,0 +1,6 @@
+We have used session's invalidate() method, which allows us to mannually 
+invalidate(kill) the session, instead of allowing it to be invalidated naturally
+after the inactive interval expires.
+
+After a session object is invalidated, accessing the session again may cause
+IllegalStateException.

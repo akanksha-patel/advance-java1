@@ -1,0 +1,5 @@
+This example demonstrate how to create dynamic response:
+
+Also it talks about Response API methods:
+getWriter()
+setContentType()

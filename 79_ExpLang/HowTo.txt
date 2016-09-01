@@ -1,0 +1,10 @@
+In this example we tried to show you the simplicity of EL
+syntext. 
+
+${---}
+
+The value we can write is:
+1. any constant
+2. any EL implicit Object
+3. any scoped attribute name
+

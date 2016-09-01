@@ -1,0 +1,2 @@
+To discourage scripting in jsp there is a jsp configuration in web.xml
+disallowing users to use scripting. 

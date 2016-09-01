@@ -1,0 +1,6 @@
+Here in this example we are trying API specified in PageContext and
+JspContext.
+
+We are using the getAttribute() overloaded methods.
+We also saw the PageContext constants representing 
+different scopes.

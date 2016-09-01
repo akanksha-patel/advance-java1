@@ -1,0 +1,6 @@
+Here the argument specified in side the square brackets of an EL
+then the value is checked if it is wrapped in single quote. If not then 
+it will not work the same, instead it is considered as an attribute in 
+available scope. And the value bound to the attribute will replace the 
+argument in the square bracket and now the entire expression is
+evaluated accordingly.

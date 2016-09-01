@@ -1,0 +1,5 @@
+Instead of getting the config object then initParam you can use one liner:
+getServletConfig().getInitParameter("mngEml");
+
+Simillerly:
+getServletConfig().getServletContext().getInitParameter("mngEml");

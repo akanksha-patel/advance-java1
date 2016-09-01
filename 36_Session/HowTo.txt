@@ -1,0 +1,3 @@
+If you access your session after the session expires then 
+you won't be able to track your session again, instead you 
+will get a new session.

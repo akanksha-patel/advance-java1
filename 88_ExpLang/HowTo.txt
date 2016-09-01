@@ -1,0 +1,18 @@
+Here we used the square brackets and shown you the alternative
+way to access the same thing which was earlier accessed through the 
+dot operator.
+
+Don't forget to wrap the value in single quotes before you put it in the 
+square brackets.
+
+The square brackets allow you to use Map, Bean, Array and List.
+
+If you use array or list then the argument in the square bracket is a number
+and wrapping the number in the single quote is not mandetory.
+
+
+Always remember that if you are using dot operator then the value after 
+the dot operator must follow the rules for java identifiers. Means the value
+after the dot operator can't start with digit, or it can;t be a keyword.
+
+To surpass the problem we can use square brackets instead.

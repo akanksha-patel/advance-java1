@@ -1,0 +1,8 @@
+You can override JspPage API methods jspInit() and jspDestroy().
+
+To do this you need to write the override code in declaration <%! %>.
+
+Both are life cycle methods and called once in their life.
+jspInit is called when jsp page is initialized and jspDestroy is called
+when the application is stopped, destroyed or the server is closed.
+

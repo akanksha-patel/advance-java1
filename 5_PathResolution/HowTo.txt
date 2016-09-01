@@ -1,0 +1,11 @@
+//The relative path configured in your links and forms are 
+//converted into absolute paths by removing the last requested 
+//resource(in last requested URL) with the relative path specified in href(<a>) or 
+//action(<form>) attribute.
+
+//If the last requested resource is:
+	localhost:8080/MyApp/abc/mno.html
+//And the relative link path in mno.html is kkr.html
+//then the link path would be converted into absolute path:
+	localhost:8080/MyApp/abc/kkr.html
+

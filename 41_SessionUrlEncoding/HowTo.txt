@@ -1,0 +1,16 @@
+response.encodeURL() helps to attach session-id to the url.
+this way the encoded url helps to maintain the session, even though 
+the cookie at client side is disabled.
+
+the method is smart such that when the cookie is enabled, it just 
+skip the encoding. In other words it only endoes the url when there
+is no request header naming cookie.
+
+It is request.getSession() method which is capable enough to 
+read the cookie request header and if not found then it also checks 
+if the url is encoded or not. If the cookie header is missing, then 
+it checks for the url and if the url is encoded then it fetches the 
+session-id and rest is the same, it finds the matching session object in the
+session pool.
+
+encodeURL works only when the cookie header is missing.

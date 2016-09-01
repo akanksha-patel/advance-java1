@@ -1,0 +1,2 @@
+In this example we tried to use the overloaded getAttribute and setAttribute
+methods and the constant fields APPLICATION_SCOPE, REQUEST_SCOPE... etc.

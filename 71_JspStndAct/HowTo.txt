@@ -1,0 +1,9 @@
+The jsp:useBean standard action is also used to set an attribute
+in specified scope:
+
+First of all it tries to locate the specified (id) attribute in the specified
+scope. When it doesn't find one then creates a new object of the
+specified class. And also saves it in the specified scope as an attribute 
+with the same attribute name.(Please refer the translation)
+
+Note: the bean class specified in the class attribute must have a no arg constructor.

@@ -1,0 +1,8 @@
+param and paramValues EL Implicit Objects are map of 
+alll paramters.
+
+Here in case of param the keys are parameter names and
+values are parameter values.
+
+In paramValues case the keys are parameter names and values
+are array object containing all values associated with the key -parameter.

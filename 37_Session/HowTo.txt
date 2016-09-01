@@ -1,0 +1,4 @@
+the overloaded getSession(boolean) method only returns an 
+existing session object if present. It won't create a new session 
+object if one is not already present in the session pool, it will
+return a null value instead.

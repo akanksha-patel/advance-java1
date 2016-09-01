@@ -1,0 +1,8 @@
+If there is an initParam and a contextParam entry with the 
+same name:
+
+then if you get an initparam through ServletConfig
+then you will get the init-param entry.
+
+And if you will try to access the initParam through the ServletContext 
+then you will get context-param entry.

@@ -1,0 +1,13 @@
+Using the <%@ include %> directive you can create your own 
+reusable page components. This reduces any redundency(duplicate code).
+
+It allows us to make changes easily. You only need to make changes in 
+included page once and the changes will reflect in each including page, 
+instead of making changes in each page.
+
+include directive is a translation time instruction. So any changes need to 
+restart the application. The JEE spec. says it is a translation time instruction.
+But the Apche Foundation implemented the directive to reflect changes without
+restarting the application. On the next request server itself sences the changes
+and again performs the translation.
+

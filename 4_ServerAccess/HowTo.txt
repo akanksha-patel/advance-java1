@@ -1,0 +1,12 @@
+//If you configure a welcome file in the web.xml then 
+//the default nature of your server(sending an index page)
+//is overridden.
+
+//If there are more than one welcome file in the welcome file list 
+//then the server reads the welcome file in top down order until the 
+//match found. Ones the match found the file will be returned as a 
+//response.
+
+//if no match found then 404 page not found response will be displayed on 
+//client machine.
+

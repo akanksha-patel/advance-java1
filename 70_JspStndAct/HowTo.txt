@@ -1,0 +1,11 @@
+Here we are using the Jsp Standard Action:
+<jsp:useBean id="" class="" scope="" />
+<jsp:getProperty name="" property="" />
+
+If you have any scoped attribute and the object is a proper bean.
+then you can use the standard-action to access it instead of scripting.
+
+This technique is developed to provide alternate ways to 
+reduce the use of scripting.
+
+Also see the translation of the page.

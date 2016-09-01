@@ -1,0 +1,18 @@
+InitParamServlet:
+
+Here in this example we should first make changes in the 
+instance variable(in InitParamServlet) naming managerEmail.
+
+First Test: 
+Don't compile, Restart Server & test the example. the changes will not reflect.
+
+Second Test:
+Compile the servlet class but don't restart the server. The changes will not reflect.
+
+Third Test:
+Compile & restart the server and now test. the changes will reflect.
+
+InitParam2Servlet:
+We have made changes in our web.xml and we can see that a liittile 
+change in your web.xml will reflect the changes. You don't need to 
+compile & restart the servre

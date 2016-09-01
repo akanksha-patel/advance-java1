@@ -1,0 +1,11 @@
+We can set attribute at session scope.
+As soon as the session expires the attributes associated are also vanishes.
+
+But using the attributes you can hold any information generated during the 
+several transections in a user seesion. 
+
+View the Session4Servlet :
+1. within 30 seconds
+2. after 30 seconds - In this case the session will expire and you will 
+get the distinct result.
+

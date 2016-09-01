@@ -1,0 +1,7 @@
+This example is about session-config, session-timeout tag in the web.xml.
+
+You can override the Server configured session timeout (Default: 30min), by 
+using the appplication specific tags. 
+
+The tag allows you to specify the session-
+timeout in minutes, and which is applicable to all the users visiting the application.

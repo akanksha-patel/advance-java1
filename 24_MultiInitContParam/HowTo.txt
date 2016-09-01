@@ -1,0 +1,2 @@
+You can create multiple context-param for the entire application.
+and multiple init-params for any servlet.

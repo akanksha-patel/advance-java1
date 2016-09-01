@@ -1,0 +1,14 @@
+//Case 1:
+When any checkbox, radio-button or drop-down-menu option
+is ignored by the end user then there will be no parameter entry 
+in your address bar as a query part.
+On the other hand the text fields if ignored then they still become 
+the part of your query-part.
+
+//Case 2:
+Whenever you create radio-button or checkbox then the user can't 
+enter any typed value, instead he/she is just checks or unchecks the
+options. It causes your parameter value to be set to 'on'. Which is 
+meaningless to the server. So you must set value attribute in your 
+checkbox and radio fields.
+

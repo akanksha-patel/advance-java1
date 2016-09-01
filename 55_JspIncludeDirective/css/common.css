@@ -1,0 +1,23 @@
+#ab{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 120px;
+	font-size: 22px;
+	color: red;
+	background-color: yellow;
+	border: 3px solid green;
+	position: relative;
+}
+
+#ab span{
+	position: absolute;
+	left: 180px;
+	top: 15px;
+}
+
+#im{
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}

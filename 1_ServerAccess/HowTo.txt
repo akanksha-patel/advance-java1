@@ -1,0 +1,6 @@
+//This example states that the index.html is the welcome file 
+//If you don't provide resource name in your URl then the 
+//Server will try to find an index page inside the specified location.
+
+//localhost:8080/App -----> will return you the index page inside the App
+//localhost:8080/App/abc -----> will return you the index page inside the App/abc

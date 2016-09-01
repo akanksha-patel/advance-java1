@@ -1,0 +1,3 @@
+In this example we tried to set properties in the bean using 
+jsp:setProperty. We need the setter when we use jsp:useBean
+to set a bean object as an attribute.

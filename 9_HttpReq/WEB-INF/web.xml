@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+    version="2.4">
+
+
+  <context-param>
+	<param-name>x</param-name>
+	<param-value>20</param-value>
+ </context-param>
+
+  <servlet>
+	<servlet-name>abc242</servlet-name>
+	<servlet-class>HttpReq1Servlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>abc242</servlet-name>
+	<url-pattern>/req.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+	<servlet-name>abc12</servlet-name>
+	<servlet-class>HttpReq2Servlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>abc12</servlet-name>
+	<url-pattern>/req2.do</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+	<servlet-name>abc123</servlet-name>
+	<servlet-class>HttpReq3Servlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+	<servlet-name>abc123</servlet-name>
+	<url-pattern>/req3.do</url-pattern>
+  </servlet-mapping>
+
+</web-app>

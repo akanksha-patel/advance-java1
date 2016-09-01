@@ -1,0 +1,6 @@
+The cookie EL implicit object is used to access client side cookies.
+The  cookie EL impl.-obj. is a map and the cookie name becomes
+key but cookie value does not become the value against the key
+instead the entire cookie object is stored against the key. that is
+why you need to use name and value properties of Cookie class to
+access the cookie information.

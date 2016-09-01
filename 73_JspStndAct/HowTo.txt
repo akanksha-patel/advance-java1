@@ -1,0 +1,7 @@
+To use the jsp:setProperty conditionally, means when a scoped 
+attribute does not found then only it should work, simply nest the
+jsp:setProperty inside the jsp:useBean. 
+
+If the attribute is found in the specified scope then the jsp:setProperty
+will not work in this case.
+

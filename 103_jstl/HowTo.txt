@@ -1,0 +1,12 @@
+Here we have used jstl tag out.
+First of all you need to import jstl and standard jar file in the lib.
+also you need to insert a taglib directive to use core library.
+
+jstl: jsp standard tag library.
+
+Here we also discussed the attributes:
+
+value
+default
+escapeXml
+

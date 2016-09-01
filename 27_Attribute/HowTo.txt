@@ -1,0 +1,7 @@
+When more than one servlet is indulged in a 
+response creation then all the servlet involved need 
+to share some information amongst them.
+
+To do this we use attributes, which is a name-value
+pair information. Where name must be string and
+value can be any object.

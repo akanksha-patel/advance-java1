@@ -1,0 +1,8 @@
+Here we tried the relational operators:
+
+== or eq
+!= or ne
+< or lt
+> or gt
+<= or le
+>= or ge

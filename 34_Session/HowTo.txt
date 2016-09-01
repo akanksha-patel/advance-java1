@@ -1,0 +1,20 @@
+The client establishes a connection with the server, and sends a request.
+When the response is recevied the connection is closed by the client.
+
+To track the client... server uses the session tracking mechanism. 
+request.getSession() helps on both the sides :
+1. on request side: the method checkes if the client request consists of 
+cookie information with JSESSIONID: 
+	if Not: then the method creates a session with unique id. and associates 
+		client's request with the session.
+	If Found: then the method just tracks the session, in other words does not 
+		create new one. 
+2. on response side: the method in all cases creates a cookie object and saves
+the unique session id as a name value pair in the cookie. and sets the cookie into the 
+response. 
+
+The cookie is set with the response-header naming: set-cookie
+
+The cookie is the information which is set in the client machine by the server, with the
+intention to get back the same information with all subsequent request, either it is 
+usefull or not at any point of time at the server end.

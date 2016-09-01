@@ -1,0 +1,10 @@
+In this example we learnt:
+
+The type and class attribute in the jsp:useBean are optional,
+but not both at the same time. Either you mention type or class.
+
+You are only allowed to put a concrete class in the class attrib.
+
+If you mention only type attrib then it will work fine as long as 
+the specified attribute exists, otherwise it will trow an:
+InstantiationException.

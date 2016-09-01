@@ -1,0 +1,13 @@
+//If you configure a welcome file in the web.xml then 
+//the default nature of your server(sending an index page)
+//is overridden.
+
+//The welcome file is resolved according the last requested URL.
+//If the last requested URL is:
+	localhost:8080/MyApp/abc
+//and welcome file configured is:
+	<welcome-file>mno/amit.html</welcome-file>
+//Then folder abc must contain mno folder and the mno folder must 
+//have amit.html
+
+

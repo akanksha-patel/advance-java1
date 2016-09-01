@@ -1,0 +1,6 @@
+Some misc. problems are addressed here:
+
+If an attribute resolves to null and is tested against an integer value then 
+the null value is treated as 0 and if obe of the operand is boolean or you are
+evaluating a boolean expresssion then the attribute is treated false.
+

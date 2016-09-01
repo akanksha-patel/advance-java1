@@ -1,0 +1,15 @@
+It is not always that a getter method is cretaed for a bean property.
+In our example the getAttribute() method is simply mistakenly understood
+as there is an attribute property, buut there is not.
+
+At the same time there are several other get methods have properties in the
+PageContext object.
+
+One more thing we should take care while accessing the EL:
+When the frist part before the dot operator is resolved a bean then 
+before using a property after the dot operator, make sure that there 
+is a getter method.
+
+Again when we say the page scope then the scope is limited to the page.
+If an attribute saved in a page scope then it will destroy as soon as the 
+page run competes.

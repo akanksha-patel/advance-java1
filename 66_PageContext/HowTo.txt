@@ -1,0 +1,5 @@
+Here we tried to explain the findAttribute() method.
+Which start searching the attribute from page-scope,
+if not found then in the request sope, if not found then
+in the session scope, if not found then applicaiton scope,
+if not found in any scope then returns null.

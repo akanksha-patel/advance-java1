@@ -1,0 +1,4 @@
+The fields like check box, the getParameterValues() allows 
+us to assign a single name to check-box family.
+
+

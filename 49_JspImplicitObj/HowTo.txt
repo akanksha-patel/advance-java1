@@ -1,0 +1,7 @@
+In this example we tried to access the implicit object more meaningfully 
+and shown how powerfully we can use it to create jsp response.
+
+Also notice that the index.jsp is requested first and the servelt is requested 
+after it... so inside the servlet the getSession() returns the existing session
+instead of creating a new one.
+
